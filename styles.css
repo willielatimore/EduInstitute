@@ -1,0 +1,441 @@
+/* General Styles */
+body {
+    font-family: 'Roboto';
+    line-height: 1.6;
+}
+p{
+    font-family: 'Heebo';
+    line-height: 1.3;
+    font-size: 200;
+}
+h3{
+    font-family: 'Poppins';
+    font-weight: 200;
+    color: #ff6666;
+}
+h2{
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    color: #002966;
+}
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: 'Roboto Slab';
+}
+.nav-item{
+    padding-left: 30px;
+    font-family: 'Heebo';
+}
+.navlink{
+    color: #fff;
+}
+.navlink:hover{
+    color: #007bff !important;
+}
+/* Title Section */
+.title-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('Images/girl-learning-more-about-chemistry-class.jpg') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.title-section h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.title-section p {
+    font-family: 'Heebo';
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.title-section .btn {
+    font-family: 'Poppins';
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+/* About Section */
+#about{
+    background-color: #f7ffff;
+    padding: 7% 15%;
+}
+#about h3{
+    color: #ff6666;
+    padding-bottom: 30px;
+}
+#about h2{
+    color: #002966;
+    font-size: 3rem;
+    margin-bottom: 60px;
+}
+.img-fluid{
+    border-radius: 5px;
+}
+
+/* Courses Section */
+#courses {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+#courses h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#courses .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: white;
+    padding: 20px;
+    text-align: center;
+}
+.course-img{
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#courses .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#courses .card h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Faculty Section */
+#faculty {
+    background: #f8f9fa;
+}
+
+#faculty .card {
+    border-left: 5px solid #007bff;
+    padding: 20px;
+}
+
+
+/* Join Us Hero Section */
+.join-us {
+    background: url('Images/horizontal-shot-cheerful-black-woman-wears-spectacles-writes-list-notebook-personal-diary.jpg') no-repeat center center/cover;
+    position: relative;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.join-us .small-text {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ff6666;
+}
+
+.join-us h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.join-us p.lead {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+/* Features Section */
+.features {
+    background: #fff;
+    padding: 60px 0;
+}
+
+.feature-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card i {
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+    background: #f8f6f2;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-subtitle {
+    color: #d33;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #12263f;
+    margin-bottom: 40px;
+}
+
+.testimonial-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.quote-icon {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(200, 200, 200, 0.5);
+    margin-bottom: 15px;
+}
+
+.testimonial-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-author img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.author-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #12263f;
+}
+
+/* Contact Us Section */
+.contact-section {
+    background: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff6666;
+}
+
+.section-subtitle {
+    font-size: 1rem;
+    color: #003049;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-form input {
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 250px;
+    outline: none;
+}
+
+.contact-form button {
+    padding: 12px 25px;
+    background: #ff6666;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #003049;
+}
+
+/* Contact Info */
+.contact-info {
+    background: #003049;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    text-align: center;
+    max-width: 300px;
+}
+
+.icon {
+    font-size: 40px;
+    background: #fff;
+    color: #003049;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+
+.info-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+
+
+
+footer {
+    background-color: #003049; 
+  }
+  
+  footer h5 {
+    color: #ff6666; 
+  }
+  
+  .footer-links{
+    color:#fff;
+    cursor: pointer;
+  }
+  
+  .footer-links:hover {
+    color: #ff6666;
+  }
+  
+
+
+/* Responsive Design Our Courses*/
+@media (max-width: 768px) {
+    #courses .card {
+        margin-bottom: 20px;
+    }
+}
+/* Responsive Design Join Us Section*/
+@media (max-width: 768px) {
+    .join-us {
+        height: 50vh;
+    }
+
+    .join-us h1 {
+        font-size: 2rem;
+    }
+
+    .feature-card {
+        margin-bottom: 20px;
+    }
+}
+/* Responsive Design Testimonial Section*/
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .testimonial-card {
+        margin-bottom: 20px;
+    }
+}
+/* Responsive Design Contact Us Section*/
+@media (max-width: 768px) {
+    .contact-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form input {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .info-box {
+        margin-bottom: 20px;
+    }
+}
